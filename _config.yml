@@ -4,7 +4,7 @@ tagline: "jdw9403's Blog"
 description: '개인 공부 및 기록을 위한 블로그 입니다.'
 baseurl: ""
 url: https://jdw9403.github.io
-logo: '/public/logo.png'
+logo: '/public/softener.png'
 
 # Site configurations
 gems:
@@ -26,7 +26,7 @@ version: 1.0
 # About/contact
 author:
   name: jdw9403
-  description: jdw9403 입니다.
+  description: 개인 공부 및 기록을 위한 블로그 입니다.
   contact:
     email: mailto:jdw9403@gmail.com
 
@@ -50,7 +50,7 @@ tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
 hero:
-  image: /public/img/hello_page.jpg
+  image: /public/softener.png
   caption: 안녕하세요. jdw9403입니다.
 
 # Pugl-In
