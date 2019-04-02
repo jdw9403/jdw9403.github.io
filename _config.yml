@@ -37,8 +37,6 @@ nav:
   Categories:
     - '/blog/categories/'
     # - { Categories All: '/blog/categories/' }
-    - { ROS2: '/blog/categories/#ros2' }
-    - { test: '/blog/categories/#test' }
     - { DesignPattern: '/blog/categories/#DesignPattern' }
   Tags: 
     - '/blog/tags/'

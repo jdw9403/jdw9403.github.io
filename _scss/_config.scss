@@ -13,8 +13,9 @@ $default:  #505050;
 $white:      #fff;
 $lightgrey:  #eee;
 $black:      #000;
+$downy :#bb97ff;
 
-$theme-color: $magenta;
+$theme-color: $downy;
 $theme-color-dark: darken($theme-color, 10%);
 
 $post-date-color: #9a9a9a;
