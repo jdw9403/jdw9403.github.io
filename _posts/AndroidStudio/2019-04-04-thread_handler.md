@@ -80,5 +80,8 @@ class MyThread extends Thread {
         });
     }
 }
+</pre>
+<br>
+<br>
 
 참고한 사이트 : https://bitsoul.tistory.com/100
