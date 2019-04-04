@@ -37,7 +37,9 @@ nav:
   Categories:
     - '/blog/categories/'
     # - { Categories All: '/blog/categories/' }
+    - { AndroidStudio: '/blog/categories/#AndroidStudio' }
     - { DesignPattern: '/blog/categories/#DesignPattern' }
+    
   Tags: 
     - '/blog/tags/'
 
