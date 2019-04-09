@@ -33,7 +33,6 @@ PreferenceCategory는 여러 설정을 하나의 카테고리로 묶을 수 있�
       android:title="ip address"
       android:defaultValue="192.168.0.1"
       android:summary="192.168.0.1"/&gt;
-
   &lt;/PreferenceCategory&gt;
 &lt;/PreferenceScreen&gt;
 </pre>
@@ -95,7 +94,7 @@ public class SettingsActivity extends AppCompatActivity {
 
 # 4. 저장된 설정값 가져오기
 <pre class="prettyprint">
-    public static String getIp(Context context) {
+    public String getIp(Context context) {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
         return prefs.getString(SettingFragment.KEY_IP, SettingFragment.DEFAULT_IP);
     }
