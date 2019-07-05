@@ -10,7 +10,7 @@ tag: [AndroidStudio]
 가장 손쉬운 방법은 https로 바꾸는 것이지만, http를 그대로 사용할 때에는 manifest에 아래 한 줄을 추가해줘도 된다.
 
 <pre class="prettyprint">
-    android:usesCleartextTraffic="true"
+android:usesCleartextTraffic="true"
 </pre>
 <br>
 

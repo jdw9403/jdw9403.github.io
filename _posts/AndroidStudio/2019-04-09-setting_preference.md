@@ -14,7 +14,7 @@ tag: [AndroidStudio]
 
 기존 PreferenceFragment가 deprecated될 예정이라 PreferenceFragmentCompat을 사용할 수 있도록 모듈 gradle을 설정한다.
 <pre class="prettyprint">
-    implementation "com.android.support:preference-v7:28.0.0"
+implementation "com.android.support:preference-v7:28.0.0"
 </pre>
 <br>
 
