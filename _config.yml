@@ -51,7 +51,7 @@ tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
 hero:
-  image: /public/softener.png
+  image: /public/img/molang_coffee.png
   caption: 안녕하세요. jdw9403입니다.
 
 # Pugl-In
