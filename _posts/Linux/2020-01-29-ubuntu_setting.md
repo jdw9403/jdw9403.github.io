@@ -103,6 +103,8 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ### .zshrc 설정
 <details>
   <summary>.zshrc</summary>
+
+{%raw%}
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -229,6 +231,7 @@ export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 # for Android
 ANDROID_TOOLS=/home/down/Android/Sdk/platform-tools
 export PATH=$PATH:$ANDROID_TOOLS
+{%endraw%}
 
 </details>
 <br>
