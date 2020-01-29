@@ -5,8 +5,6 @@ category: Linux
 tag: [Linux]
 ---
 
-<br>
-
 ## Ubuntu 설치 후 초기 세팅을 정리한 글입니다.
 
 <br>
@@ -52,6 +50,7 @@ sudo apt-get install fcitx-hangul
 >5. Extra key for trigger input method는 체크 해제
 
 <br>
+<br>
 
 # 네트워크 설정 (고정 IP 사용시)
 
@@ -60,6 +59,7 @@ sudo apt-get install fcitx-hangul
 >3. 하단에 IP주소, 넷마스크, 게이트웨이, DNS(,로 여러개 추가 가능) 작성
 >4. identity 탭에서 이름 설정 가능
 
+<br>
 <br>
 
 # Git SSH 설정
@@ -74,6 +74,7 @@ cat id_rsa.pub
 출력된 암호키를 전부 복사한다.
 github 계정 settings - SSH and GPG keys에 등록 
 
+<br>
 <br>
 
 # terminator, zsh 설정
@@ -102,7 +103,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 ### .zshrc 설정
 <details>
-  <summary>.zshrc</summary>
+  <summary>.zshrc (git에서 raw로 변경해야 제대로 보임)</summary>
 
 {%raw%}
 # If you come from bash you might have to change your $PATH.
@@ -246,6 +247,7 @@ export PATH=$PATH:$ANDROID_TOOLS
 >6. 창 크기 조절은 ~/.config/termintor/config파일 수정 ([[[window0]]] 하단에 size = 740, 540 등으로 추가)
 
 <br>
+<br>
 
 # Top bar 숨기기
 
@@ -254,12 +256,14 @@ export PATH=$PATH:$ANDROID_TOOLS
 >3. only when the active window takes the space 체크
 
 <br>
+<br>
 
 # Settings 설정
 
 >1. Dock - auto-hide the dock 체크 해제 / icon size - 28 / position - bottom
 >2. Power - Blank screen - never / Automatic suspend - when on battery power
 
+<br>
 <br>
 
 # tweaks, dconf editor 설정
@@ -283,33 +287,36 @@ ubuntu software에서 tweaks, dconf editor 다운로드
 >3. dock-position : BOTTOM / show-apps-at-top : 체크
 
 <br>
+<br>
 
 # 18.04에서 19.04 테마 쓰기
 
->1. communitheme 설치 <pre class="prettyprint">
+>1. communitheme 설치 
+
+<pre class="prettyprint">
 snap install communitheme
 </pre>
+
 >2. 재부팅 후 로그인 창에서 기어 아이콘 클릭 - "Ubuntu with communitheme snap" 클릭
 >3. tweaks - appearance에서 icons, applications를 communitheme으로 변경 / cursor는 DMZ-white
 
 <br>
-
-# chrome 설치
-
-ubuntu software에서 Google Chrome 설치
-
 <br>
 
 # Jdk 설치
 
->1. 설치 (jre도 같이 설치됨)<pre class="prettyprint">
+>1. 설치 (jre도 같이 설치됨)
+
+<pre class="prettyprint">
 sudo apt-get install openjdk-11-jdk
 java --version (체크용)
 </pre>
+
 >2. 다음을 .zshrc에 추가 (path 설정)
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 (버전에 맞게 수정 필요)
 
+<br>
 <br>
 
 # 안드로이드 스튜디오 설치
@@ -319,7 +326,7 @@ export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 >3. material theme plugin 설치 및 기본 세팅 파일 불러오기
 >4. Tools - Create desktop entry로 바로가기 생성
 
-
+<br>
 <br>
 
 # pip 설치
@@ -331,6 +338,7 @@ pip3 --version (체크용)
 </pre>
 
 <br>
+<br>
 
 # Mattermost 설치
 
@@ -341,11 +349,13 @@ sudo snap install mattermost-desktop --beta
 설치 후 서버 이름 및 url 설정
 
 <br>
+<br>
 
-# VSCode, Filezilla, Postman 설치
+# VSCode, Filezilla, Postman, Chrome 설치
 
 ubuntu software에서 모두 설치 가능
 
+<br>
 <br>
 
 # Barrier 설치
@@ -353,6 +363,7 @@ ubuntu software에서 모두 설치 가능
 https://github.com/debauchee/barrier/wiki/Building-on-Linux 참고해서 설치
 (git timeout 에러시 git 사이트에서 직접 주소 복사하여 clone)
 
+<br>
 <br>
 
 # IntelliJ IDEA, PyCharm, CLion설치
@@ -367,6 +378,7 @@ sudo snap install pycharm-community --classic
 CLion은 https://www.jetbrains.com/ko-kr/clion/download/#section=linux 에서 다운로드 받을 수 있지만 30일 평가판이다.
 
 <br>
+<br>
 
 # ROS2 설치
 
@@ -374,6 +386,7 @@ ROS2 dashing 버전은 https://index.ros.org/doc/ros2/Installation/Dashing/Linux
 
 Setup Locale과 Install Additional*은 생략 가능
 
+<br>
 <br>
 
 ---
