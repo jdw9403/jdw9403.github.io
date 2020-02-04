@@ -1,11 +1,11 @@
 ---
 layout: post
-title: ROS2 Tutorial
+title: ROS2 User Tutorial
 category: ROS2
 tag: [ROS2]
 ---
 
-## ROS2 Tutorial 내용을 정리한 글 입니다.
+## ROS2 User Tutorial 내용을 정리한 글 입니다.
 
 <br>
 
