@@ -76,6 +76,7 @@ ros2 topic info "topic_name"
 - 해당 토픽으로 직접 pub (pub --once: 한번만 / pub --rate 1 : 1hz로 계속 송신)
 <pre class="prettyprint">
 ros2 topic pub "topic_name" "msg_type" "args"
+ros2 topic pub /topic_name_downy downy_msg/msg/MyMsg '{text: 'hi', num: 3}'
 </pre>
 
 <br>
@@ -103,7 +104,7 @@ ros2 service call "service_name" "service_type" "args"
 
 - node, topic, service, action등을 입력할 땐 /을 앞에 붙인다.
 
-- 해당 타입의 arguments들 보여줌 (직접 topic pub하거나 service call할 때 인자 확인용으로 사용)
+- 해당 타입의 arguments들 보여줌 (직접 topic pub하거나 service call할 때 인자 확인용으로 사용/ eloquent 이상만)
 <pre class="prettyprint">
 ros2 interface show "type_name.srv"
 </pre>

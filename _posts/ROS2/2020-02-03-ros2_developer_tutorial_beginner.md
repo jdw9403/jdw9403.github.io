@@ -83,7 +83,7 @@ ros2 run turtlesim turtlesim_node
 - package 시스템 = ament / 빌드 툴 = colcon (ament로 package를 생성하고, colcon으로 빌드한다.)
 - package 최소 구성 - package.xml 
 (package의 meta info), CMakeList.txt
-- pkg 만들기 (--node-name으로 노드 이름 지정가능)
+- pkg 만들기 (pkg명은 소문자로 / --node-name으로 노드 이름 지정가능)
 <pre class="prettyprint">
 ros2 pkg create --build-type ament_cmake "package_name"
 </pre>
@@ -216,37 +216,6 @@ ros2 run cpp_srvcli client 2 5
 </pre>
 
 <br>
-
-
-
-
-
-
-
-<pre class="prettyprint">
-</pre>
-
-<br>
-
-<pre class="prettyprint">
-</pre>
-
-<br>
-
-<pre class="prettyprint">
-</pre>
-
-<br>
-
-
-
-
-
-
-
-
-
-
 <br>
 <br>
 

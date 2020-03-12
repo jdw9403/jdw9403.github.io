@@ -40,6 +40,7 @@ nav:
     - { AndroidStudio: '/blog/categories/#AndroidStudio' }
     - { DesignPattern: '/blog/categories/#DesignPattern' }
     - { Linux: '/blog/categories/#Linux' }
+    - { C++: '/blog/categories/#C++' }
     - { ROS2: '/blog/categories/#ROS2' }
     
   Tags: 

@@ -353,7 +353,11 @@ sudo snap install mattermost-desktop --beta
 
 # VSCode, Filezilla, Postman, Chrome 설치
 
-ubuntu software에서 모두 설치 가능
+ubuntu software에서 모두 설치 가능<br>
+또는, 
+<pre class="prettyprint">
+snap install code --classic
+</pre>
 
 <br>
 <br>
@@ -368,14 +372,13 @@ https://github.com/debauchee/barrier/wiki/Building-on-Linux 참고해서 설치
 
 # IntelliJ IDEA, PyCharm, CLion설치
 
-IntelliJ IDEA, PyCharm은 snap으로 간단히 설치 가능하다.
+모두 snap으로 간단히 설치 가능하다.(CLion은 30일 평가판)
 
 <pre class="prettyprint">
 sudo snap install intellij-idea-community --classic
 sudo snap install pycharm-community --classic
+sudo snap install clion --classic
 </pre>
-
-CLion은 https://www.jetbrains.com/ko-kr/clion/download/#section=linux 에서 다운로드 받을 수 있지만 30일 평가판이다.
 
 <br>
 <br>
